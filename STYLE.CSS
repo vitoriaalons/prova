@@ -1,0 +1,27 @@
+    /*seletor universal*/
+    *{margin: 0px ;
+        padding: 0px;}
+    /*cotpo da pagina*/
+    body{
+        font-family: sans-serif;
+    }
+    /*secção cabeçalho*/
+    .cabecalho{
+        background-color: rgb(252, 0, 0);
+        color: red(9, 243, 243);
+        display: flex;
+        padding: 30px;
+        font-size: 24px;
+        justify-content: space-around;
+    }
+
+    .cabecalho-imafem{
+        width: 150px;
+        height: 150px;
+    }
+
+    .cabecalho-item{
+        display: inline block;
+        padding: 0 100px;
+        text-decoration: underline;
+    }
